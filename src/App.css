@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(46, 129, 155);
+  background-image: linear-gradient(to right, rgb(48, 134, 160) ,rgba(250, 187, 187, 0.199));
+}
+legend{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+fieldset{
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+}
+label{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(230, 230, 230);
+}
+input{
+  font-size: 25px;
+  margin: 8px;
+  outline: none;
+  border-color:lightblue ;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+button{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 50px;
+  background-color: rgb(83, 161, 187);
+  color: #fff;
+  border-color: rgb(86, 132, 148) ;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgba(73, 134, 155, 0.788) ;
+  transition: .7s;
+}
+h3{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  border-style: solid ;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+}
